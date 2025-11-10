@@ -11,7 +11,7 @@ hero:
       link: /download
     - theme: alt
       text: Documentation
-      link: /docs/dev/getting-started
+      link: /api-examples
     - theme: alt
       text: Source Code
       link: https://github.com/XDPXI/SwiftMC
