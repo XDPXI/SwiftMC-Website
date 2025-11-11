@@ -3,10 +3,18 @@ import {defineConfig} from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "SwiftMC",
+    head: [["link", {
+        rel: "icon",
+        sizes: "32x32",
+        href: "/favicon.png",
+    }]],
     description: "SwiftMC's official website",
     lastUpdated: true,
+    metaChunk: true,
+    cleanUrls: true,
     themeConfig: {
-        // https://vitepress.dev/reference/default-theme-config
+        logo: '/favicon.png',
+
         search: {
             provider: 'local'
         },
@@ -34,6 +42,15 @@ export default defineConfig({
 
         socialLinks: [
             {icon: 'github', link: 'https://github.com/XDPXI/SwiftMC'}
-        ]
+        ],
+
+        editLink: {
+            pattern: 'https://github.com/XDPXI/SwiftMC/edit/main/:path',
+        },
+
+        footer: {
+            message: 'NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ACCOCIATED WITH MOJANG.',
+            copyright: 'Copyright © 2025 SwiftMC. All rights reserved.'
+        }
     }
 })

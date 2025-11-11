@@ -5,6 +5,7 @@ hero:
   name: "SwiftMC"
   text: ""
   tagline: A fast, lightweight, and modern Minecraft server built on Minestom.
+  image: favicon.png
   actions:
     - theme: brand
       text: Download
