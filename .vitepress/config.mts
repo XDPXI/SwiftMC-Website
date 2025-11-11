@@ -45,7 +45,7 @@ export default defineConfig({
         ],
 
         editLink: {
-            pattern: 'https://github.com/XDPXI/SwiftMC/edit/main/:path',
+            pattern: 'https://github.com/XDPXI/SwiftMC-Website/edit/main/:path',
         },
 
         footer: {
