@@ -106,7 +106,11 @@ onMounted(fetchReleases);
 .page-header h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  background: linear-gradient(120deg, #3b82f6 30%, #38bdf8);
+  background: linear-gradient(
+    120deg,
+    #3b82f6 30%,
+    #38bdf8
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
