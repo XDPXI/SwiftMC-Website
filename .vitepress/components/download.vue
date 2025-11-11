@@ -202,9 +202,11 @@ onMounted(fetchReleases);
 .release-notes :deep(h1),
 .release-notes :deep(h2),
 .release-notes :deep(h3) {
-  margin-top: 1rem;
+  margin-top: 0;
   margin-bottom: 0.5rem;
   color: var(--vp-c-text-1);
+  border-bottom: 1px solid var(--vp-c-divider);
+  border-top: none;
 }
 
 .release-notes :deep(ul),
@@ -253,7 +255,7 @@ onMounted(fetchReleases);
 .asset-link:hover {
   border-color: var(--vp-c-brand-1);
   background: var(--vp-c-brand-soft);
-  transform: translateY(4px);
+  transform: translateY(-4px);
 }
 
 .asset-name {
