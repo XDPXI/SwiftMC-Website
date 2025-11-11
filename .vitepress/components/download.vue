@@ -151,7 +151,7 @@ onMounted(fetchReleases);
 }
 
 .release-info h2 {
-  margin: 0;
+  margin: 0 0 0.5rem 0;
   font-size: 1.5rem;
   color: var(--vp-c-text-1);
   border: none;
@@ -173,9 +173,9 @@ onMounted(fetchReleases);
 }
 
 .latest {
-  background-color: var(--vp-c-green-soft);
-  color: var(--vp-c-green-1);
-  border: 1px solid var(--vp-c-green-2);
+  background-color: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  border: 1px solid var(--vp-c-brand-2);
 }
 
 .prerelease {
