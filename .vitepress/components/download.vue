@@ -142,7 +142,6 @@ onMounted(fetchReleases);
 
 .card-header {
   display: flex;
-  gap: 1.5rem;
   align-items: flex-start;
   margin-bottom: 1.5rem;
 }
@@ -152,9 +151,10 @@ onMounted(fetchReleases);
 }
 
 .release-info h2 {
-  margin: 0 0 0.5rem 0;
+  margin: 0;
   font-size: 1.5rem;
   color: var(--vp-c-text-1);
+  border: none;
 }
 
 .badges {
