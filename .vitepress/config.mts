@@ -6,14 +6,14 @@ export default defineConfig({
     head: [["link", {
         rel: "icon",
         sizes: "32x32",
-        href: "/favicon.png",
+        href: "https://raw.githubusercontent.com/XDPXI/SwiftMC-Website/refs/heads/main/favicon.png",
     }]],
     description: "SwiftMC's official website",
     lastUpdated: true,
     metaChunk: true,
     cleanUrls: true,
     themeConfig: {
-        logo: '/favicon.png',
+        logo: 'https://raw.githubusercontent.com/XDPXI/SwiftMC-Website/refs/heads/main/favicon.png',
 
         search: {
             provider: 'local'
