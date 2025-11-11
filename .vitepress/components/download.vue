@@ -253,7 +253,7 @@ onMounted(fetchReleases);
 .asset-link:hover {
   border-color: var(--vp-c-brand-1);
   background: var(--vp-c-brand-soft);
-  transform: translateX(4px);
+  transform: translateY(4px);
 }
 
 .asset-name {
