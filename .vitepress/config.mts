@@ -12,6 +12,7 @@ export default defineConfig({
     lastUpdated: true,
     metaChunk: true,
     cleanUrls: true,
+    lang: 'en-US',
     themeConfig: {
         logo: 'https://raw.githubusercontent.com/XDPXI/SwiftMC-Website/refs/heads/main/favicon.png',
 
