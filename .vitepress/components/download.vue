@@ -37,6 +37,7 @@
             <li v-for="asset in release.assets" :key="asset.id">
               <a :href="asset.browser_download_url" class="asset-link" target="_blank">
                 <span class="asset-name">{{ asset.name }}</span>
+                <span class="file-size"><i class="fa-solid fa-download"></i> {{ asset.download_count }}</span>
                 <span class="file-size">{{ formatBytes(asset.size) }}</span>
               </a>
             </li>
