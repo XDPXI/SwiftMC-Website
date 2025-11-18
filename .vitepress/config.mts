@@ -29,12 +29,14 @@ export default defineConfig({
         sidebar: [
             {
                 text: 'Administration',
+                collapsed: false,
                 items: [
                     {text: 'Getting Started', link: '/docs/admin/getting-started'}
                 ]
             },
             {
                 text: 'Development',
+                collapsed: false,
                 items: [
                     {text: 'Getting Started', link: '/docs/dev/getting-started'}
                 ]
