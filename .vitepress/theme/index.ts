@@ -2,9 +2,9 @@
 import {h} from 'vue'
 import type {Theme} from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import './style.css'
-import './fontawesome.css'
-import './blur.css'
+import './styles/style.css'
+import './styles/fontawesome.css'
+import './styles/blur.css'
 
 export default {
     extends: DefaultTheme,
