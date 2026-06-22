@@ -12,7 +12,7 @@ hero:
       link: /download
     - theme: alt
       text: Documentation
-      link: /docs/dev/getting-started
+      link: https://docs.xdpxi.dev/swiftmc
     - theme: alt
       text: Source Code
       link: https://github.com/XDPXI/SwiftMC
