@@ -30,9 +30,9 @@ features:
 
 <h2 style="margin: 0 0 1rem 0;">From the ground up</h2>
 
-SwiftMC is built entirely on Minestom, a lightweight and efficient Java framework that reimagines server development from the ground up. Rather than extending the traditional Bukkit or Spigot infrastructure, SwiftMC leverages Minestom's clean architecture and modern design to create a server that is both powerful and performant.
+Swift is built entirely on Minestom, a lightweight and efficient Java framework that reimagines server development from the ground up. Rather than extending the traditional Bukkit or Spigot infrastructure, Swift leverages Minestom's clean architecture and modern design to create a server that is both powerful and performant.
 
-This approach means SwiftMC avoids the technical debt and overhead of legacy server implementations, giving you a fresh foundation built with contemporary Java practices. With Minestom's event-driven architecture and minimal dependencies, SwiftMC achieves exceptional performance while maintaining a codebase that's clean, maintainable, and easy to extend.
+Breeze is built on Velocity, reimagined as a lightweight and efficient proxy framework that prioritizes performance and simplicity from the ground up. Rather than extending traditional proxy architecture, Breeze refines Velocity’s core systems into a cleaner, more modern design that reduces overhead and improves responsiveness.
 
 </div>
 
@@ -41,13 +41,23 @@ This approach means SwiftMC avoids the technical debt and overhead of legacy ser
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
 
 <a href="/download/swift" style="background-color: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%); padding: 2rem; border-radius: 0.5rem; cursor: pointer; border: none; text-decoration: none; color: inherit; display: block;">
-  <h3 style="margin-top: 0;">Swift</h3>
+  <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+    <div style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 5px; background: var(--vp-c-default-soft); flex-shrink: 0;">
+      <img src="https://raw.githubusercontent.com/XDPXI/SwiftMC-Website/refs/heads/main/assets/swift%401700.png" alt="Swift" style="width: 36px; height: 36px;">
+    </div>
+    <h3 style="margin: 0;">Swift</h3>
+  </div>
   <p style="margin-bottom: 0;">A fast, lightweight, and modern Minecraft server built on Minestom.</p>
 </a>
 
 <div onclick="return false;" style="background-color: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%); padding: 2rem; border-radius: 0.5rem; opacity: 0.5; cursor: not-allowed; border: none;">
-  <h3 style="margin-top: 0;">Breeze</h3>
-  <p style="margin-bottom: 0;">A small but powerful proxy allowing you to hook as many servers into a network.</p>
+  <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+    <div style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 5px; background: var(--vp-c-default-soft); flex-shrink: 0;">
+      <img src="https://raw.githubusercontent.com/XDPXI/SwiftMC-Website/refs/heads/main/assets/breeze%401800.png" alt="Breeze" style="width: 36px; height: 36px;">
+    </div>
+    <h3 style="margin: 0;">Breeze</h3>
+  </div>
+  <p style="margin-bottom: 0;">A lightweight but powerful proxy allowing you to hook as many servers into a network.</p>
 </div>
 
 </div>
