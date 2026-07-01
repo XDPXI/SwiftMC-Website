@@ -80,16 +80,42 @@
                     alt="Swift Logo"
                     class="swift-icon"
                 />
-                <span class="copyright"
-                    >Copyright © 2025-2026 SwiftMC. All rights reserved.</span
-                >
+                <div class="footer-bottom-text">
+                    <span class="copyright"
+                        >Copyright © 2025-2026 SwiftMC. All rights reserved.</span
+                    >
+                    <span class="commit-info" v-if="latestCommit">
+                        <a href="https://github.com/XDPXI/SwiftMC-Website">XDPXI/SwiftMC-Website</a>
+                        @
+                        <a :href="`https://github.com/XDPXI/SwiftMC-Website/commit/${latestCommit}`">
+                            {{ latestCommit.slice(0, 7) }}
+                        </a>
+                    </span>
+                </div>
             </div>
         </footer>
     </div>
 </template>
 
 <script setup lang="ts">
+import { ref, onMounted } from "vue";
 import DefaultTheme from "vitepress/theme";
+
+const latestCommit = ref<string | null>(null);
+
+onMounted(async () => {
+    try {
+        const response = await fetch(
+            "https://api.github.com/repos/XDPXI/SwiftMC-Website/commits?per_page=1"
+        );
+        const data = await response.json();
+        if (data[0]?.sha) {
+            latestCommit.value = data[0].sha;
+        }
+    } catch (error) {
+        console.error("Failed to fetch latest commit:", error);
+    }
+});
 </script>
 
 <style scoped>
@@ -163,9 +189,31 @@ import DefaultTheme from "vitepress/theme";
     flex-shrink: 0;
 }
 
+.footer-bottom-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-end;
+}
+
 .copyright {
     font-size: 0.85rem;
     color: var(--vp-c-text-3);
+}
+
+.commit-info {
+    font-size: 0.85rem;
+    color: var(--vp-c-text-3);
+}
+
+.commit-info a {
+    color: var(--vp-c-brand);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.commit-info a:hover {
+    color: var(--vp-c-brand-light);
 }
 
 @media (max-width: 768px) {
@@ -189,6 +237,10 @@ import DefaultTheme from "vitepress/theme";
 
     .footer-bottom {
         flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-bottom-text {
         align-items: flex-start;
     }
 }
