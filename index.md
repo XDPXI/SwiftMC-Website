@@ -16,31 +16,13 @@ hero:
     - theme: alt
       text: GitHub Repo
       link: https://github.com/XDPXI/SwiftMC
-
-features:
-  - title: "<i class='fa-solid fa-bolt'></i> Fast"
-    details: Powered by Minestom and optimized for performance, SwiftMC delivers exceptional tick rates, low latency, and smooth gameplay even under heavy player loads.
-  - title: "<i class='fa-solid fa-feather'></i> Lightweight"
-    details: Designed with modularity and efficiency in mind, SwiftMC runs with minimal resource usage so you can focus on building, not managing overhead.
-  - title: "<i class='fa-solid fa-lightbulb'></i> Modern"
-    details: Built using modern Java standards and clean architecture, SwiftMC supports the latest Minecraft versions with a robust and extensible API.
 ---
-
-<div style="background-color: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%); padding: 2rem; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); margin-top: 2rem; padding-left: calc(50vw - 50%); padding-right: calc(50vw - 50%);">
-
-<h2 style="margin: 0 0 1rem 0;">From the ground up</h2>
-
-Swift is built entirely on Minestom, a lightweight and efficient Java framework that reimagines server development from the ground up. Rather than extending the traditional Bukkit or Spigot infrastructure, Swift leverages Minestom's clean architecture and modern design to create a server that is both powerful and performant.
-
-Breeze is built on Velocity, reimagined as a lightweight and efficient proxy framework that prioritizes performance and simplicity from the ground up. Rather than extending traditional proxy architecture, Breeze refines Velocity’s core systems into a cleaner, more modern design that reduces overhead and improves responsiveness.
-
-</div>
 
 <h2>Your server deserves the best</h2>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
 
-<a href="/download/swift" style="background-color: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%); padding: 2rem; border-radius: 0.5rem; cursor: pointer; border: none; text-decoration: none; color: inherit; display: block;">
+<a href="/software/swift" style="background-color: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%); padding: 2rem; border-radius: 0.5rem; cursor: pointer; border: none; text-decoration: none; color: inherit; display: block;">
   <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
     <div style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 5px; background: var(--vp-c-default-soft); flex-shrink: 0;">
       <img src="https://raw.githubusercontent.com/XDPXI/SwiftMC-Website/refs/heads/main/assets/swift%401700.png" alt="Swift" style="width: 36px; height: 36px;">
@@ -50,7 +32,7 @@ Breeze is built on Velocity, reimagined as a lightweight and efficient proxy fra
   <p style="margin-bottom: 0;">A fast, lightweight, and modern Minecraft server built on Minestom.</p>
 </a>
 
-<div onclick="return false;" style="background-color: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%); padding: 2rem; border-radius: 0.5rem; opacity: 0.5; cursor: not-allowed; border: none;">
+<a href="/software/breeze" style="background-color: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%); padding: 2rem; border-radius: 0.5rem; cursor: pointer; border: none; text-decoration: none; color: inherit; display: block;">
   <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
     <div style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 5px; background: var(--vp-c-default-soft); flex-shrink: 0;">
       <img src="https://raw.githubusercontent.com/XDPXI/SwiftMC-Website/refs/heads/main/assets/breeze%401800.png" alt="Breeze" style="width: 36px; height: 36px;">
@@ -58,7 +40,7 @@ Breeze is built on Velocity, reimagined as a lightweight and efficient proxy fra
     <h3 style="margin: 0;">Breeze</h3>
   </div>
   <p style="margin-bottom: 0;">A lightweight but powerful proxy allowing you to hook as many servers into a network.</p>
-</div>
+</a>
 
 </div>
 
