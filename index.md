@@ -18,6 +18,14 @@ hero:
       link: https://github.com/XDPXI/SwiftMC
 ---
 
+<div style="background-color: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%); padding: 2rem; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); margin-top: 2rem; padding-left: calc(50vw - 50%); padding-right: calc(50vw - 50%);">
+
+<h2 style="margin: 0 0 1rem 0;">Built for Modern Minecraft Servers</h2>
+
+SwiftMC is a modern ecosystem of high-performance tools built from the ground up for Minecraft servers. Whether you're running a single high-performance server or managing a large network, we provide lightweight, efficient solutions designed for today's needs.
+
+</div>
+
 <h2>Your server deserves the best</h2>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
