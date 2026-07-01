@@ -30,6 +30,10 @@ Breeze is built on Velocity, reimagined as a lightweight and efficient proxy fra
 
 </div>
 
+<h2 style="margin: 2rem 0 1rem 0;">Under the Hood</h2>
+
+<p style="margin-bottom: 1rem; color: rgba(255, 255, 255, 0.9);">Breeze is built on Velocity's proven foundation with optimizations for efficiency and modern async I/O patterns. Packet handling and network operations are designed to minimize latency and CPU overhead, even under heavy concurrent load.</p>
+
 <style>
 div[style*="backdrop-filter"] p:last-child {
   margin-bottom: 0;
