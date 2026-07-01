@@ -25,13 +25,6 @@
                                 class="badge prerelease"
                                 >Pre-Release</span
                             >
-                            <span
-                                v-else-if="
-                                    release.tag_name === latestReleaseTag
-                                "
-                                class="badge latest"
-                                >Latest</span
-                            >
                             <span class="badge date">{{
                                 formatDate(release.published_at)
                             }}</span>
@@ -125,8 +118,8 @@ onMounted(fetchReleases);
 }
 
 .page-header {
-    text-align: center;
-    margin-bottom: 3rem;
+    text-align: left;
+    margin-bottom: 1rem;
 }
 
 .page-header h1 {
@@ -189,12 +182,6 @@ onMounted(fetchReleases);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
-}
-
-.latest {
-    background-color: var(--vp-c-brand-soft);
-    color: var(--vp-c-brand-1);
-    border: 1px solid var(--vp-c-brand-2);
 }
 
 .prerelease {
