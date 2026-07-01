@@ -44,6 +44,10 @@
  * -------------------------------------------------------------------------- */
 
 :root {
+    --vp-c-bg: #0f1419;
+    --vp-c-bg-alt: #1a1f2e;
+    --vp-c-bg-soft: #242d3d;
+
     --vp-c-default-1: var(--vp-c-gray-1);
     --vp-c-default-2: var(--vp-c-gray-2);
     --vp-c-default-3: var(--vp-c-gray-3);
@@ -52,7 +56,7 @@
     --vp-c-brand-1: #38bdf8;
     --vp-c-brand-2: #3b82f6;
     --vp-c-brand-3: #256bee;
-    --vp-c-brand-soft: #64A7FF28;
+    --vp-c-brand-soft: #64a7ff28;
 
     --vp-c-tip-1: var(--vp-c-brand-1);
     --vp-c-tip-2: var(--vp-c-brand-2);
@@ -93,14 +97,14 @@
 :root {
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: linear-gradient(
-            120deg,
-            #3b82f6 30%,
-            #38bdf8
+        120deg,
+        #3b82f6 30%,
+        #38bdf8
     );
     --vp-home-hero-image-background-image: linear-gradient(
-            -45deg,
-            #3b82f6 50%,
-            #38bdf8 50%
+        -45deg,
+        #3b82f6 50%,
+        #38bdf8 50%
     );
     --vp-home-hero-image-filter: blur(48px);
 }
@@ -136,10 +140,26 @@
     --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-.VPFeatures .emoji {
+.VPFeatures .fa-solid {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
     font-size: 20px;
-    padding: 4px;
     border-radius: 5px;
-    margin-right: 5px;
+    margin-right: 8px;
     background: var(--vp-c-default-soft);
+}
+
+.vp-doc h2 {
+    border-top: none;
+    padding-top: 0;
+}
+
+/* Dark mode text adjustments */
+:root {
+    --vp-c-text-1: #e8e8e8;
+    --vp-c-text-2: #c5c5c5;
+    --vp-c-text-3: #9f9f9f;
 }

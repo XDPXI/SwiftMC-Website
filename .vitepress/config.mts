@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "SwiftMC",
+  title: "Swift",
   head: [
     [
       "link",
@@ -18,6 +18,7 @@ export default defineConfig({
   metaChunk: true,
   cleanUrls: true,
   lang: "en-US",
+  appearance: "force-dark",
   themeConfig: {
     logo: "https://raw.githubusercontent.com/XDPXI/SwiftMC-Website/refs/heads/main/favicon.png",
 
@@ -27,20 +28,13 @@ export default defineConfig({
 
     nav: [
       { text: "Home", link: "/" },
-      { text: "Download", link: "/download" },
-      { text: "Documentation", link: "https://docs.xdpxi.dev/swiftmc" },
+      { text: "Docs", link: "https://docs.xdpxi.dev/swiftmc" },
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/XDPXI/SwiftMC" }],
 
     editLink: {
       pattern: "https://github.com/XDPXI/SwiftMC-Website/edit/main/:path",
-    },
-
-    footer: {
-      message:
-        "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ACCOCIATED WITH MOJANG.",
-      copyright: "Copyright © 2025-2026 SwiftMC. All rights reserved.",
     },
   },
 });

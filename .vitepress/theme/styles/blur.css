@@ -4,7 +4,6 @@
 */
 
 :root {
-
     /* Navbar */
     .VPNavBar:not(.has-sidebar):not(.home.top) {
         background-color: rgba(255, 255, 255, 0);
@@ -18,12 +17,12 @@
     }
 
     /* Feature cards */
-    /* Dreeam Note: We don't need this for now */
-    /* .VPFeature {
+    .VPFeature {
         border: 1px solid transparent;
         box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%);
-        background-color: transparent;
-    } */
+        background-color: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+    }
 
     /* Left sidebar in docs */
     .curtain {
@@ -32,7 +31,6 @@
     }
 
     @media (min-width: 960px) {
-
         /* Navbar in docs */
         .VPNavBar:not(.home.top) .content-body {
             background-color: rgba(255, 255, 255, 0);
@@ -45,5 +43,4 @@
         background-color: rgba(255, 255, 255, 0);
         backdrop-filter: blur(10px);
     }
-
 }
